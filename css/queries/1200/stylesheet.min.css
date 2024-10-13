@@ -1,0 +1,30 @@
+/* QUERIES */
+/* Min */
+/* 1200 */
+@media (min-width: 1200px){
+	.slideshow-container {
+		width: 100%;
+		height: 350px;
+	}
+	
+	.slideshow-slide img {
+		height: 90%;
+	}
+	
+	#progress-info {
+		padding: 2vh 1vw 2vh 1vw;
+	}
+	
+	#progress-description {
+		margin-right: 40%;
+		margin-left: 40%;
+	}
+	
+	.input-center-check label {
+		font-size: 2vw;
+	}
+	
+	.button-buy-1 {
+		margin: 2vh auto 2.2vh auto;
+	}
+}

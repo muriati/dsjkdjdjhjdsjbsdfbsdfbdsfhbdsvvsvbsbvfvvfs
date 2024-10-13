@@ -1,0 +1,26 @@
+/* ANIMATIONS */
+/**/
+@keyframes zooming { 
+	0% { 
+		transform: scale(1, 1); 
+	} 50% { 
+		transform: scale(1.1, 1.1); 
+	} 100% { 
+		transform: scale(1, 1); 
+	}
+}
+
+@keyframes pulse-status {
+	0% {
+	  background-color: #006400;
+	  box-shadow: 0 0 2px #006400, 0 0 10px #006400;
+	}
+	50% {
+	  background-color: #00FF00;
+	  box-shadow: 0 0 2px #00FF00, 0 0 10px #00FF00;
+	}
+	100% {
+	  background-color: #006400;
+	  box-shadow: 0 0 2px #006400, 0 0 10px #006400;
+	}
+  }

@@ -1,0 +1,17 @@
+/* QUERIES */
+/* Min */
+/* 640 */
+@media (min-width:640px) {
+	.sm\:text-sm {
+		font-size:14px;
+		line-height:20px
+	}
+
+	.sm\:w-16 {
+		width:64px
+	}
+
+	.sm\:ml-12 {
+		margin-left:48px
+	}
+}
